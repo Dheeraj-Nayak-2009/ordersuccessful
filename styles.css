@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #121010; /* Ensures the body background is dark */
+  background-color: #121010; 
 }
 
 .container {
@@ -19,11 +19,17 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   padding: 0;
+  animation: 2s fade ease 1;
 }
 
 fieldset {
   border: 3px solid white;
   border-radius: 30px;
+  animation: 2s fade ease 1;
+}
+
+legend{
+  animation: 2s fade ease 1;
 }
 
 a {
@@ -31,4 +37,14 @@ a {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   padding: 0;
+  animation: 2s fade ease 1;
+}
+
+@keyframes fade{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
