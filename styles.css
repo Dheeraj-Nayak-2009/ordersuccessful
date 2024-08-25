@@ -1,0 +1,30 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.container{
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+border-color: #121010;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+h1{
+	color: white;
+	font-family: Poppins;
+	font-size: 25px;
+	padding: 0;
+}
+fieldset{
+  border: 3px solid white;
+  border-radius: 30px;
+}
+a{
+  color: white;
+	font-family: Poppins;
+	font-size: 18px;
+	padding: 0;
+}
